@@ -229,3 +229,22 @@ __pycache__/
 *.pyd
 .env/
 .venv/
+
+data/
+# Ignore data folder with large files
+data/
+
+# macOS junk
+.DS_Store
+
+# Python cache and envs
+__pycache__/
+*.pyc
+.env/
+.venv/
+
+# Model binaries
+*.pkl
+*.joblib
+*.h5
+*.pt
