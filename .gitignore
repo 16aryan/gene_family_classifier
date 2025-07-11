@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Ignore all dataset CSVs
+data/*.csv
+
+# Optional: Ignore common junk files
+.DS_Store
+*.log
+*.tmp
+*.bak
+
+# Ignore model files and large binaries
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# Ignore virtual environments and Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+.venv/
