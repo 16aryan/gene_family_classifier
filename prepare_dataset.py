@@ -7,3 +7,9 @@ human = pd.read_csv('/Users/aryan/gene_family_classifier-main/data/human_sequenc
 
 df = pd.concat([chimp, human, mouse], ignore_index=True)
 df.to_csv("/Users/aryan/gene_family_classifier-main/data/gene_families.csv", index=False)
+
+
+
+
+
+
